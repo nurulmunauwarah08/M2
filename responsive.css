@@ -1,0 +1,11 @@
+/* Untuk Tablets */
+
+@media (max-width: 1000px) {
+	.movie {
+		width: 50%;
+		margin-bottom: 10px;
+	}
+	.movie-inside {
+		width: 50%;
+	}
+}

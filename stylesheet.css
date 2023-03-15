@@ -1,0 +1,86 @@
+body {
+	font-family: "lucida grande";
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	margin: bottom 50px;
+}
+
+/*. Bagian MOVIE BODY  */
+.movies-wrapper {
+	height: 700px;
+	text-align: center;
+	background-color: rgb(23, 23, 78);
+}
+.movies-wrapper h1 {
+	margin-bottom: 20px;
+	color: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.heading {
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+.heading h2 {
+	font-weight: normal;
+}
+.movie {
+	float: left;
+	width: 25%;
+}
+.movie-icon img {
+	height: 190px;
+	width: 250px;
+	padding-bottom: 20px;
+}
+.movie-icon p {
+	top: 90px;
+	width: 100%;
+	color: white;
+}
+.txt-contents {
+	color: #b3aeb5;
+	font-size: 15px;
+	margin-top: 20px;
+	width: 80%;
+	display: inline-block;
+}
+span {
+	font-weight: bold;
+}
+
+.genre-wrapper {
+	background-color: rgb(17, 12, 50);
+	height: 1200px;
+}
+.genre-container {
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid #ffffff;
+}
+
+.movie-inside img {
+	height: 250px;
+	width: 180px;
+	border-radius: 10px;
+	transition: all 500ms ease-in-out;
+}
+.movie-inside img:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.btn-more {
+	color: white;
+}
